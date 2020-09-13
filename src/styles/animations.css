@@ -1,0 +1,139 @@
+.hometitleappear {
+  animation-name: hometitleappear;
+  animation-duration: 1.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hometitleappear {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.homeleftdisappear {
+  animation-name: homeleftdisappear;
+  animation-duration: 1s;
+}
+
+@keyframes homeleftdisappear {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-45vh);
+  }
+}
+
+.homerightdisappear {
+  animation-name: homerightdisappear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes homerightdisappear {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(67vw);
+  }
+}
+
+.selectappear {
+  animation-name: selectappear;
+  animation-duration: .8s;
+}
+
+@keyframes selectappear {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.selectdisappear {
+  animation-name: selectdisappear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes selectdisappear {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(200px);
+    opacity: 0
+  }
+}
+
+.albumappear {
+  animation-name: albumappear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes albumappear {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.albumdisappear {
+  animation-name: albumdisappear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes albumdisappear {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(200px);
+    opacity: 0
+  }
+}
+
+.pending {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.pending:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #f7f1c3;
+  border-color: #f7f1c3 transparent #f7f1c3 transparent;
+  animation: pendinganimation 1.2s linear infinite;
+}
+@keyframes pendinganimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

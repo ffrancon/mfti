@@ -1,0 +1,65 @@
+[
+  {
+    "category": "vocals",
+    "albums": [
+      {
+        "title": "isaacgracie",
+        "id": "0WhOJJJZPWfefjJogtinkD"
+      },
+      {
+        "title": "thisisthekit",
+        "id": "0ekbANyejam0fKM6fDtdZT"
+      },
+      {
+        "title": "swing",
+        "id": "30eY1ExUxqKvCOCQIixXxn"
+      },
+      {
+        "title": "fatoumatadiawara",
+        "id": "2jdSj8ZhRoGvKFD9r22BtT"
+      }
+    ]
+  },
+  {
+    "category": "instru",
+    "albums": [
+      {
+        "title": "olafurarnalds",
+        "id": "5yulSZK48ArdLPXWur0qik"
+      },
+      {
+        "title": "io",
+        "id": "12QASFqrcuUnYoPttAH0WS"
+      },
+      {
+        "title": "balmorhea",
+        "id": "3RGZGuwR3f0n6Y4WtE7dlR"
+      },
+      {
+        "title": "tileedit",
+        "id": "4RKwam1Hd7sRplsSInNxrp"
+      }
+    ]
+  },
+  {
+    "category": "electro",
+    "albums": [
+      {
+        "title": "uyamahiroto",
+        "id": "3lWDRI6LLRZqPbCK7xBeAp"
+      },
+      {
+        "title": "bonobo",
+        "id": "5m1RkwKeU7MV0Ni6PH2lPy"
+      },
+      {
+        "title": "mrstee",
+        "id": "5N94kf06fmlemWOJa0Jaqo"
+      },
+      {
+        "title": "sessionvictim",
+        "id": "0KynfLw1af32baSTI7UO6z"
+      }
+    ]
+  }
+]

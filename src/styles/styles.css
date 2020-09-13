@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  background-image: url('../../public/img/singer.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#aboutct.toggleabout {
+  transform: translateX(0);
+}
+
+.aboutclosed::after {
+   content: "?";
+   display: inline-block;
+   margin-left: 5px;
+   transition: color .3s;
+}
+
+.aboutclosed:hover::after {
+  color: #ff3030;
+}
+
+.aboutopen::after {
+  content: "x";
+  font-family: sans-serif;
+  display: inline-block;
+  margin-left: 5px;
+  transition: color .3s;
+}
+
+.aboutopen:hover::after {
+ color: #ff3030;
+}
