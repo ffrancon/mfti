@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import "regenerator-runtime/runtime";
 
 import AlbumDisplay from './AlbumDisplay'
 import albums from '../albums.json';
