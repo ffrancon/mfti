@@ -73,9 +73,9 @@ const Select = props => {
     <div>
       <SelectTitle className='selectappear' id='selecttitle'><span css={`font-size: 1.7em`}><span css={`color: ${colors.third}`}>W</span>hat</span><br />are we listening to <span css={`color: ${colors.third}`}>?</span></SelectTitle>
       <ul css={`list-style: none; display: flex; flex-direction: column; align-items: flex-start; padding: 0`}>
-        <Li className='selectappear' onClick={() => props.action('vocals')} css={`animation-delay: .3s`}>Singers<br /></Li>
-        <Li className='selectappear' onClick={() => props.action('instru')} css={`animation-delay: .6s`}>Instrumental Music<br /></Li>
-        <Li className='selectappear' onClick={() => props.action('electro')} css={`animation-delay: .9s`}>Electronic Music</Li>
+        <Li className='selectappear selectchoice' onClick={() => props.action('vocals')} css={`animation-delay: .3s`}>Singers<br /></Li>
+        <Li className='selectappear selectchoice' onClick={() => props.action('instru')} css={`animation-delay: .6s`}>Instrumental Music<br /></Li>
+        <Li className='selectappear selectchoice' onClick={() => props.action('electro')} css={`animation-delay: .9s`}>Electronic Music</Li>
       </ul>
     </div>
   )

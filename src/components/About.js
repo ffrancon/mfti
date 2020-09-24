@@ -20,7 +20,6 @@ const Txt = styled.p({
 
 const AboutCt = styled.div({
   boxSizing: 'border-box',
-  padding: '0 40px',
   position: 'absolute',
   zIndex: 999,
   top: 0,
@@ -34,18 +33,6 @@ const AboutCt = styled.div({
   transform: 'translateX(-40vw)',
   transitionProperty: 'transform',
   transitionDuration: '.7s',
-
-  '@media screen and (min-width: 992px)': {
-    padding: '0 60px'
-  },
-
-  '@media screen and (min-width: 1200px)': {
-    padding: '0 80px'
-  },
-
-  '@media screen and (min-width: 1920px)': {
-    padding: '0 100px'
-  }
 })
 
 //-- COMPONENT --//

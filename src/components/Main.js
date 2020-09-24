@@ -23,7 +23,7 @@ const Main = () => {
     if (!category) {
       document.getElementById('selecttitle').classList.remove('selectappear');
       document.getElementById('selecttitle').classList.add('selectdisappear');
-      document.querySelectorAll('li').forEach(element => {
+      document.querySelectorAll('.selectchoice').forEach(element => {
         element.classList.remove('selectappear');
         element.style.transform = 'translateX(0)';
         element.classList.add('selectdisappear');

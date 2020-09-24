@@ -3,26 +3,37 @@
     "category": "vocals",
     "albums": [
       {
+        "title": "lucydacus",
+        "id": "01GO03odsNlNLtvNETukWT"
+      },
+      {
         "title": "isaacgracie",
         "id": "0WhOJJJZPWfefjJogtinkD"
+      },
+      {
+        "title": "tommisch",
+        "id": "6iOCv7oGL5sGi2aVnRz2BI"
       },
       {
         "title": "thisisthekit",
         "id": "0ekbANyejam0fKM6fDtdZT"
       },
       {
-        "title": "swing",
-        "id": "30eY1ExUxqKvCOCQIixXxn"
-      },
-      {
         "title": "fatoumatadiawara",
         "id": "2jdSj8ZhRoGvKFD9r22BtT"
+      }, {
+        "title": "blackpumas",
+        "id": "4UyIwKhFbMr0mFFGZ9lhRp"
       }
     ]
   },
   {
     "category": "instru",
     "albums": [
+      {
+        "title": "helios",
+        "id": "34CpMn9yU8iDcXDaSkrqXu"
+      },
       {
         "title": "olafurarnalds",
         "id": "5yulSZK48ArdLPXWur0qik"
@@ -38,6 +49,10 @@
       {
         "title": "tileedit",
         "id": "4RKwam1Hd7sRplsSInNxrp"
+      },
+      {
+        "title": "alangogoll",
+        "id": "5A4ANnJm69zzAWTPt1nwiK"
       }
     ]
   },
@@ -53,12 +68,20 @@
         "id": "5m1RkwKeU7MV0Ni6PH2lPy"
       },
       {
+        "title": "gramatiksb1",
+        "id": "1p1w828sU7QewePqhfZKwh"
+      },
+      {
         "title": "mrstee",
         "id": "5N94kf06fmlemWOJa0Jaqo"
       },
       {
         "title": "sessionvictim",
         "id": "0KynfLw1af32baSTI7UO6z"
+      },
+      {
+        "title": "hvob",
+        "id": "25aj5x75VPuZ9NWz36ZT6v"
       }
     ]
   }
